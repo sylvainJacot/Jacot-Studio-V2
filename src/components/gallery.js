@@ -10,7 +10,7 @@ import Pic07 from '../images/Default.png';
 
 
 const pictures = [
-    {href:"/", alt:"#", classename:"colufzefzmn", source:`${Pic01}`,},
+    {href:"/", alt:"#", classename:"gegg", source:`${Pic01}`,},
     {href:"/", alt:"#", classename:"colufzefzmn", source:`${Pic02}`,},
     {href:"/", alt:"#", classename:"colufzefzmn", source:`${Pic03}`,},
     {href:"/", alt:"#", classename:"colfzefzumn", source:`${Pic04}`,},
