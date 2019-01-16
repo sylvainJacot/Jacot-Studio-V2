@@ -1,0 +1,46 @@
+@import "./fundaments.scss";
+@import "../components/breakpoints.scss";
+@import "../components/animations.scss";
+
+.HeaderContainer {
+    position: fixed;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px;
+    width: 100%;
+    
+    @include tablet {
+        top: 0;
+        bottom: 0;
+        padding: 48px 32px;
+        width: auto;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: center;
+        padding-top: 48px;
+    }
+
+    h1 {
+        font-size: 0;
+    }
+
+    .SocialsContainer {
+
+        a {
+            margin-left: 24px;
+
+            @include tablet {
+                margin-left: 0px;
+                margin-bottom: 40px;        
+            }
+        }
+        @include tablet {
+            margin-top: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+
+@import "./normalize.scss";
+@import "./components/breakpoints.scss";
+@import "./components/header.scss";
+@import "./components/gallery.scss";
+
+.GridMain {
+    display: block;
+
+    @include tablet {
+    display: grid;
+    grid-template-columns: 104px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "h g g g g g g g g g g g"
+
+
+}
+
+.GalleryContainer {
+grid-area: g;
+}
+
+.HeaderContainer {
+grid-area: h;
+}
+}
+
+
